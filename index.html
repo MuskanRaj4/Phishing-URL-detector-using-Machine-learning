@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phishing URL Detector</title>
+</head>
+<body>
+
+<h1>Phishing URL Detector</h1>
+
+<form method="POST">
+
+<input type="number" name="url_length" placeholder="URL Length"><br><br>
+
+<input type="number" name="valid_url" placeholder="Valid URL"><br><br>
+
+<input type="number" name="at_symbol" placeholder="@ Symbol"><br><br>
+
+<input type="number" name="sensitive_word" placeholder="Sensitive Word"><br><br>
+
+<input type="number" name="path_length" placeholder="Path Length"><br><br>
+
+<input type="number" name="isHttps" placeholder="HTTPS"><br><br>
+
+<input type="number" name="nb_dots" placeholder="Dots"><br><br>
+
+<input type="number" name="nb_hyphen" placeholder="Hyphen"><br><br>
+
+<input type="number" name="nb_and" placeholder="AND"><br><br>
+
+<input type="number" name="nb_or" placeholder="OR"><br><br>
+
+<input type="number" name="nb_www" placeholder="WWW"><br><br>
+
+<input type="number" name="nb_com" placeholder=".COM"><br><br>
+
+<input type="number" name="nb_unders" placeholder="Underscore"><br><br>
+
+<button type="submit">Predict</button>
+
+</form>
+
+<h2>{{ result }}</h2>
+
+</body>
+</html>
